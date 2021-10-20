@@ -1,0 +1,99 @@
+body {
+	background: url(./фон.jpg) no-repeat center center fixed;
+	background-size: cover;  
+}
+nav {
+   background: black ;
+}
+li.waves-effect.active {
+   background: black;
+}
+div.box{
+	text-align: center;
+	font-size:14px;
+	background-color: white;
+	margin-right:10px;
+	padding-bottom: 10px;
+}
+p {
+    color: black; /* Цвет текста */
+}
+
+ul.tabs {
+	height: 64px ;
+	background: white ;
+
+}
+
+.block-content {
+	margin-bottom: 70px;
+}
+
+@media all and (min-width: 993px) {
+	.container {
+	    width: 85%;
+	}
+}
+@media all and (min-width: 1px) and (max-width: 600px) {
+	.mobilephone {
+		font-size: 20px;
+	}
+	.mobilephones {
+		font-size: 14px;
+	}
+}
+
+@media all and (min-width: 601px) and (max-width: 992px) {
+	.mobilephone {
+		font-size: 22px;
+	}
+	.mobilephones {
+		font-size: 17px;
+	}
+}
+
+@media all and (min-width: 993px) and (max-width: 1200px) {
+	.mobilephone {
+		font-size: 27px;
+	}
+	.mobilephones {
+		font-size: 20px;
+	}
+}
+@media all and (min-width: 1201px) {
+	.mobilephone {
+		font-size: 32px;
+	}
+	.mobilephones {
+		font-size: 25px;
+	}
+}
+
+
+.modal-content{
+	color: black;
+}
+.modal {
+	width: 80%;
+	max-height: 80%;
+}
+th { 
+	background: #37474f ; /* Цвет фона ячейки */
+	text-align: center; /* Выравнивание по левому краю */
+	color: white ;
+}
+td {
+	background: #fff; /* Цвет фона ячеек */
+	text-align: center; /* Выравнивание по центру */
+	}
+th, td {
+	border: 3px solid black; /* Параметры рамки */
+}
+
+.col-1-2 {
+  width: 50%;
+  float: left;
+}
+.collapsible-body {
+	text-align: left;
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+      <meta charset="utf-8">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      
+      <link rel="stylesheet" type="text/css" href="Пример задач 1.css">
+
+    </head> 
+
+    <body>
+
+
+      <nav>
+        <div class="nav-wrapper">
+          <div class="container">
+          <a href="главная.html" class="brand-logo"><i class="material-icons">menu</i></a>
+            <ul class="right ">
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn modal-trigger blue-grey darken-3" href="#modal1">Дополнительные материалы</a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+    
+  <div class="container">
+    <div class="box"> 
+    <br><i align="centre"><h3><b>Перевод из 2-й системы счисления в другие системы счисления.</b></h3>
+    <p class="container">
+      <h5><span>1. Переводите 1101100<sub>2</sub> в десятичную систему </h5></span>
+    </p>
+  <ul class="collapsible expandable" data-collapsible="accordion">
+      <li>
+        <div class="collapsible-header"><i class="material-icons">reorder</i><h6>Пример решения:</h6></div>
+          <div class="collapsible-body"><span><h6>
+            Для перевода числа 11000101 в десятичную систему воспользуемся формулой:
+
+            <br>A<sub>n</sub> = a<sup>n-1</sup> ∙ q<sup>n-1</sup> + a<sup>n-2</sup> ∙ q<sup>n-2</sup> + ∙∙∙ + a<sup>0</sup> ∙ q<sup>0</sup>
+            <br>
+            <br>Отсюда:
+
+            <br>1101100<sub>2</sub> = 1·2<sup>6</sup>+1·2<sup>5</sup>+0·2<sup>4</sup>+1·2<sup>3</sup>+1·2<sup>2</sup>+0·2<sup>1</sup>+0·1 = 108<sub>10</sub>
+            <br>
+            <br> Ответ: 108.
+ </b></h6></span></div>
+      </li>
+  </ul>
+  <br>
+  <br>
+  <p class="container">
+      <h5><span>2. Переведите число 1101100<sub>2</sub> в 8-ую систему счисления.</span></h5>
+    </p>
+    <ul class="collapsible expandable" data-collapsible="accordion">
+      <li>
+        <div class="collapsible-header"><i class="material-icons">reorder</i><h6>Пример решения:</h6></div>
+          <div class="collapsible-body"><span><h6>
+            Сначала нужно перевести 1101100<sub>2</sub> в 10-ую систему счисления. Дальше последовательным делением полученное число переводим в 8-ую систему счисления.
+            <br>
+            <br>Переводим 1101100<sub>2</sub> в десятичную систему:
+            <br>1101100<sub>2</sub> = 1·2<sup>6</sup>+1·2<sup>5</sup>+0·2<sup>4</sup>+1·2<sup>3</sup>+1·2<sup>2</sup>+0·2<sup>1</sup>+0·1 = 108<sub>10</sub>    
+
+            <br>
+            <br>Переведем 108<sub>10</sub> в 8-ую систему:
+
+            <br>
+            <br>108/8 = 13, остаток: 4
+            <br>13/8 = 1, остаток: 5
+            <br>1/8 = 0, остаток: 1
+            <br>
+            <br>108<sub>10</sub> = 154<sub>8</sub>
+            <br>
+            <br>Ответ: 154.
+          </h6></span></div>
+          </li>
+      </ul>
+  <br>
+  <br>
+
+  <p class="container">
+      <h5><span>3. Переведите число 1111100<sub>2</sub> в 16-ую систему счисления.</span></h5>
+    </p>
+  <ul class="collapsible expandable" data-collapsible="accordion">
+      <li>
+        <div class="collapsible-header"><i class="material-icons">reorder</i><h6>Пример решения:</h6></div>
+          <div class="collapsible-body"><span><h6>
+            
+            Сначала нужно перевести 1111100<sub>2</sub> в 10-ую систему счисления. Дальше последовательным делением полученное число переводим в 16-ую систему счисления.
+            <br>
+            <br> Переводим 1111100<sub>2</sub> в десятичную систему:
+            <br>1111100<sub>2</sub> = 1·2<sup>6</sup>+1·2<sup>5</sup>+1·2<sup>4</sup>+1·2<sup>3</sup>+1·2<sup>2</sup>+0·2<sup>1</sup>+0·1 = 124<sub>10</sub>
+            <br>
+            <br>Переводим целую часть 124<sub>10</sub> в 16-ую систему последовательным делением на 16:
+            <br>
+            <br>124/16 = 7, остаток: 12, 12 = C
+            <br>7/16 = 0, остаток: 7
+            <br>124<sub>10</sub> = 7C<sub>16</sub>
+            <br>
+            <br> Ответ: 7С.
+          </h6></span></div>
+      </li>
+  </ul>
+  <br>
+  <br>
+
+  <p class="container">
+      <h5><span>4. Переведите число 1010110110<sub>2</sub> в 10-ую систему счисления.</span></h5>
+    </p>
+      <ul class="collapsible expandable" data-collapsible="accordion">
+      <li>
+        <div class="collapsible-header"><i class="material-icons">reorder</i><h6>Пример решения:</h6></div>
+          <div class="collapsible-body"><span><h6>
+            Для перевода числа 1010110110 в десятичную систему воспользуемся формулой:
+
+            <br>A<sub>n</sub> = a<sup>n-1</sup> ∙ q<sup>n-1</sup> + a<sup>n-2</sup> ∙ q<sup>n-2</sup> + ∙∙∙ + a<sup>0</sup> ∙ q<sup>0</sup>
+            <br>
+            <br>Отсюда:
+
+            <br>1010110110<sub>2</sub> = 1·2<sup>9</sup>+0·2<sup>8</sup>+1·2<sup>7</sup>+0·2<sup>6</sup>+1·2<sup>5</sup>+1·2<sup>4/sup>+0·2<sup>3</sup>+1·2<sup>2</sup>+1·2<sup>1</sup>+0·2<sup>0</sup> = 649<sub>10</sub>
+            <br>
+            <br> Ответ: 649.
+        </h6></span></div>
+      </li>
+  </ul>
+  <br>
+  <br>
+  <p class="container"> 
+    <h5><span>5. Переведите число 1100100110<sub>2</sub> в 8-ую систему счисления.</span></h5>
+  </p>
+  <ul class="collapsible expandable" data-collapsible="accordion">
+      <li>
+        <div class="collapsible-header"><i class="material-icons">reorder</i><h6>Пример решения:</h6></div>
+          <div class="collapsible-body"><span><h6>
+            Сначала нужно перевести 1100100110<sub>2</sub> в 10-ую систему счисления. Дальше последовательным делением полученное число переводим в 8-ую систему счисления.
+            <br>
+            <br>Переводим 1100100110<sub>2</sub> в десятичную систему:
+            <br>1100100110<sub>2</sub> = 1·2<sup>9</sup>+1·2<sup>8</sup>+0·2<sup>7</sup>+0·2<sup>6</sup>+1·2<sup>5</sup>+0·2<sup>4</sup>+0·2<sup>3</sup>+1·2<sup>2</sup>+1·2<sup>1</sup>+0·2<sup>0</sup> = 806<sub>10</sub>    
+
+            <br>
+            <br>Переведем 806<sub>10</sub> в 8-ую систему:
+
+            <br>
+            <br>806/8 = 100, остаток: 6
+            <br>100/8 = 12, остаток: 4
+            <br>12/8 = 1, остаток: 4
+            <br>1/8 = 1, остаток: 1
+            <br>
+            <br>806<sub>10</sub> = 1446<sub>8</sub>
+            <br>
+            <br>Ответ: 1446.
+          </h6></span></div>
+          </li>
+      </ul>
+    <br>
+    <br>
+    <p class="container"> 
+      <h5><span>6. Переведите 100011011101<sub>2</sub> в 16-ую систему счисления</span></h5>
+    </p>
+    <ul class="collapsible expandable" data-collapsible="accordion">
+      <li>
+        <div class="collapsible-header"><i class="material-icons">reorder</i><h6>Пример решения:</h6></div>
+          <div class="collapsible-body"><span><h6>
+            
+            Сначала нужно перевести 100011011101<sub>2</sub> в 10-ую систему счисления. Дальше последовательным делением полученное число переводим в 16-ую систему счисления.
+            <br>
+            <br> Переводим 100011011101<sub>2</sub> в десятичную систему:
+            <br>100011011101<sub>2</sub> = +1·2<sup>11</sup>+0·2<sup>10</sup>+0·2<sup>9</sup>+0·2<sup>8</sup>+1·2<sup>7</sup>+1·2<sup>6</sup>+0·2<sup>5</sup>+1·2<sup>4</sup>+1·2<sup>3</sup>+1·2<sup>2</sup>+0·2<sup>1</sup>+1·2<sup>0</sup> = 2269<sub>10</sub>
+            <br>
+            <br>Переводим целую часть 2269<sub>10</sub> в 16-ую систему последовательным делением на 16:
+            <br>
+            <br>2269/16 = 141, остаток: 13, 13 = D
+            <br>141/16 = 8, остаток: 13, 13 = D
+            <br>8/16 = 0, остаток: 8
+            <br>2269<sub>10</sub> = 8DD<sub>16</sub>
+            <br>
+            <br> Ответ: 8DD.
+          </h6></span></div>
+      </li>
+  </ul>
+  </div>
+</div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <p align="center"><h2 class="mobilephone"><b>Дополнительные материалы</b></h2></p>
+        <p><h4 class="mobilephone">Здесь будут представление материалы для решения задач,связанных с системами счисления</h4></p>
+        <div class="row">
+          <div class="col l6 xl6 m12 s12">
+            <h4 class="mobilephone"><b>Таблица переводов систем счисления</b></h4>
+            <table class="mobilepc">
+             <tr><th>Двоичная</th><th>Восме-<br>ричная</th><th>Десятичная</th><th>Шестнадца-<br>теричная</th></tr>
+             <tr><td>000</td><td>0</td><td>0</td><td>0</td></tr>
+             <tr><td>001</td><td>1</td><td>1</td><td>1</td></tr>
+             <tr><td>010</td><td>2</td><td>2</td><td>2</td></tr>
+             <tr><td>011</td><td>3</td><td>3</td><td>3</td></tr>
+             <tr><td>100</td><td>4</td><td>4</td><td>4</td></tr>
+             <tr><td>101</td><td>5</td><td>5</td><td>5</td></tr>
+             <tr><td>110</td><td>6</td><td>6</td><td>6</td></tr>
+             <tr><td>111</td><td>8</td><td>7</td><td>7</td></tr>
+             <tr><td>1000</td><td>10</td><td>9</td><td>8</td></tr>
+             <tr><td>1001</td><td>11</td><td>10</td><td>9</td></tr>
+             <tr><td>1010</td><td>12</td><td>11</td><td>A</td></tr>
+             <tr><td>101</td><td>13</td><td>12</td><td>B</td></tr>
+             <tr><td>1100</td><td>14</td><td>13</td><td>C</td></tr>
+             <tr><td>1101</td><td>15</td><td>14</td><td>D</td></tr>
+             <tr><td>1110</td><td>16</td><td>15</td><td>E</td></tr>
+             <tr><td>1111</td><td>17</td><td>16</td><td>F</td></tr>
+            </table>
+            <br margin-top: 70px>
+          </div>  
+          <div class="col l6 xl6 m12 s12">
+            <h4 class="mobilephone"><b>Алгоритмы переводов систем счисления</b></h4>
+            <h5 class="mobilephone"><b>Перевод из десятичной системы счисления в любую другую</b></h5>
+            <h6 class="mobilephones">Чтобы перевести десятичное число в систему счисления с другим основанием, нужно это число разделить на основание.
+            <br>Полученное частное снова разделить на основание, и дальше до тех пор, пока частное не окажется меньше основания. В результате записать в одну строку последнее частное и все остатки, начиная с последнего.</h6>
+            <h6 class="mobilephones"><b>Например:</b> 1) переведем десятичное число 46 в двоичную систему счисления. Ответ: 46 = 101110<sub>2</sub></h6>
+            <img src="perevod1.jpg" class="responsive-img">
+            <h6 class="mobilephones">2) переведем десятичное число 672 в восьмеричную систему счисления. Ответ: 672 = 1240<sub>8</sub></h6>
+            <img src="perevod2.jpg" class="responsive-img">
+            <h6 class="mobilephones">3) переведем десятичное число 934 в шестнадцатеричную систему счисления. Ответ: 934 = 3A6<sub>16</sub></h6>
+            <img src="perevod3.jpg" class="responsive-img">
+            <h5 class="mobilephone"><b>Перевод из любой системы счисления в десятичную</b></h5>
+            <h6 class="mobilephones">Чтобы выполнить перевод целого числа из любой позиционной системы счисления в десятичную, нужно представить число в виде суммы разрядных слагаемых. Цифры и разрядные единицы записываются в десятичной системе счисления.</h6>
+            <h6 class="mobilephones"><b>Например:</b> переведем двоично число 10110<sub>2</sub> в десятичную систему счисления. Ответ: 10110<sub>2</sub> = 22</h6>
+            <br><h6 class="mobilephones">10110<sub>2</sub> = 1 • 2<sup>4</sup> + 0 • 2<sup>3</sup> + 1 • 2<sup>2</sup> + 1 • 2<sup>1</sup> + 0 • 2<sup>0</sup> = 16 + 4 + 2 = 22
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+        $('.modal').modal();
+        $('ul.tabs').tabs();
+        $('.collapsible').collapsible();
+      });
+      </script>
+    </body>
+  </html>
